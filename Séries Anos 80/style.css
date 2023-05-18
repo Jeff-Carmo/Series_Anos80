@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Fontes */
+
+@font-face {
+    font-family: 'Army Rust';
+    src: url(Fonts/ARMY\ RUST.ttf);
+    
+    
+}
+
+@font-face {
+    font-family: 'Capture it';
+    src: url(Fonts/Capture\ it.ttf);
+}
+
+@font-face {
+    font-family: 'RUBEN';
+    src: url(Fonts/RUBEN.TTF);
+}
+
+@font-face {
+    font-family: 'BORG9';
+    src: url(Fonts/BORG9.TTF);
+}
+
+/* Cabeçalho */
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(Imagens/camo1.jpg);
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255,0.3);
+    border: 3px solid black;
+    
+}
+
+h1{
+    font-family: 'Army Rust';
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+    font-weight: normal;
+    
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Menu horizontal */
+
+.menu-h{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(Imagens/camo1.jpg);
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255,0.45);
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 4px solid black;
+    
+}
+
+.menu-h ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Capture it';
+    gap: 30px;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight:500;
+     
+}
+
+.menu-h ul a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 5px;
+}
+
+.menu-h ul a:hover{
+    color: whitesmoke;
+    background-color: black;
+     box-shadow: 1px 2px 0px 0px rgba(0, 0, 0, 0.7);
+}
+
+.menu-h ul li:active{
+    transform: translateY(1px) translateX(1px);
+}
+
+/* Main */
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.imgtype1{ /*quadrado p */
+    width: 200px;
+    height: 200px;
+}
+
+.imgtype2{ /* cartaz */
+    width: 200px;
+    height: 279px;
+}
+
+.imgtype3{ /* mais larga do que alta */
+    width: 250px;
+    height: 170px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 20px 20px 20px;
+    background: url(Imagens/metal.jpg);
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255,0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+aside img{
+    border: 3px solid black;
+    
+}
+
+.article1{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.7;
+    background: url(Imagens/metal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255,0.25);
+    width: 100%;
+    padding: 20px;
+    font-family: 'Capture it';
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+/* Rodapé */
+
+footer{
+    text-align: right;
+	font-size: 9pt;
+	height: 16px;
+    background: url(Imagens/camo1.jpg);
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255,0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+/* Fim Index.html */
+
+/* A Super Máquina.html */
+
+.bannercabeçalho{
+    background-color: black;
+}
+
+.bannercabeçalho img{
+    display: block;
+    margin: 0 auto;
+    width: 98vw;
+    height: 64vh;
+    border-radius: 0px;
+}
+
+.aside2{
+    gap: 130px;
+    padding: 170px 20px 20px 20px;
+}
+
+#h2supermaquina{
+    font-family: 'Ruben';
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 3px #000000;
+}
+
+.catalogo{
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #fff 0%, #f4f4f46c 60%);
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px #000000;
+    text-indent: 10px;
+    line-height: 3.5;
+} 
+
+.catalogo ul li{
+    list-style: none;
+      
+}
+
+ /* Fim A Super Máquina.html */
+
+ /* MacGyver .html */
+
+ .tituloh2{
+    font-family: 'Army Rust';
+    text-align: center;
+    font-size: 3.8rem;
+    letter-spacing: 4px;
+ }
+
+ /* Esquadrao Classe A .html */
+
+
+ /* Aguia de Fogo .html */
+
+ .h2airwolf{
+    font-family: 'BORG9';
+    text-align: center;
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+ }
+
+ /* Trovão Azul .html */
+
+ .h2trovao{
+    font-family: arial;
+    text-align: center;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 0px blue;
+    letter-spacing: 4px;
+ }
+
